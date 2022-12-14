@@ -15,7 +15,9 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block DARK_SOIL = registerBlock("dark_soil",
-            new Block(FabricBlockSettings.of(Material.SOIL).strength(4f)), ModItemGroup.PhylacteryBlocks);
+            new Block(FabricBlockSettings.of(Material.SOIL).strength(1f)), ModItemGroup.PhylacteryBlocks);
+    public static final Block CRYSTAL_PRISMARINE_ORE = registerBlock("crystal_prismarine_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f)), ModItemGroup.PhylacteryBlocks);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
