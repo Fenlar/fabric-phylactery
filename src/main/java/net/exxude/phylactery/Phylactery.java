@@ -1,5 +1,6 @@
 package net.exxude.phylactery;
 
+import net.exxude.phylactery.block.ModBlocks;
 import net.exxude.phylactery.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -11,6 +12,8 @@ public class Phylactery implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
     public void onInitialize() {
+
         ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }

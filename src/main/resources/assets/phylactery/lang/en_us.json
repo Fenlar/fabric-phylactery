@@ -1,4 +1,6 @@
 {
-  "item.apothecary.dark_soil": "Dark Soil",
-  "itemGroup.apothecary.apothecary_items": "Apothecary Items"
+  "item.phylactery.crystal_prismarine": "Crystal Prismarine",
+  "block.phylactery.dark_soil": "Dark Soil",
+  "itemGroup.phylactery.phylactery_items": "Apothecary Items",
+  "itemGroup.phylactery.phylactery_blocks": "Apothecary Blocks"
 }

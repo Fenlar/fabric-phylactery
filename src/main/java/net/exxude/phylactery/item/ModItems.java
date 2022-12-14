@@ -8,8 +8,8 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item DARK_SOIL = registerItem("dark_soil",
-            new Item(new FabricItemSettings().group(ModItemGroup.ApothecaryItems)));
+    public static final Item CRYSTAL_PRISMARINE = registerItem("crystal_prismarine",
+            new Item(new FabricItemSettings().group(ModItemGroup.PhylacteryItems)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Phylactery.MOD_ID, name), item);
