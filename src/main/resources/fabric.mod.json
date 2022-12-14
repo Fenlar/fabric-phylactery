@@ -3,7 +3,7 @@
   "id": "apothecary",
   "version": "${version}",
 
-  "name": "Apothecary",
+  "name": "Phylactery",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Exxude"
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.exxude.apothecary.Apothecary"
+      "net.exxude.phylactery.Phylactery"
     ],
     "client": [
-      "net.exxude.apothecary.ApothecaryClient"
+      "net.exxude.phylactery.PhylacteryClient"
     ]
   },
   "mixins": [
-    "apothecary.mixins.json"
+    "phylactery.mixins.json"
   ],
 
   "depends": {
